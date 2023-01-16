@@ -26,6 +26,7 @@ class Album extends React.Component {
     return (
       <>
         <div data-testid="page-album">
+          { this.favoriteSongs }
           <Header />
           <h1>Album</h1>
           <p data-testid="artist-name">{ name }</p>
